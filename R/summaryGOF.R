@@ -63,7 +63,7 @@ summaryGOF <- function(object, digits=5, ...) {
 print.summaryGOF <- function(x, ...){
 	old.digits <- options(digits=x$digits)
 	on.exit(options(old.digits))
-        cat("\n Goodness-of-Fit indeces of structural equation models for 'sem' package\n")
+        cat("\n Goodness-of-Fit indexes of structural equation models for 'sem' package\n")
 	if (x$raw) cat("\nModel fit to raw moment matrix.\n")	
 	
 	if (!x$raw) {		

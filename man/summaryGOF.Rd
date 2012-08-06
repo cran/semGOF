@@ -8,10 +8,10 @@
 \alias{print.summaryGOF}
 
 \title{
-Goodness-of-Fit indeces in structural equation models for \pkg{sem} 
+Goodness-of-Fit indexes in structural equation models for \pkg{sem} 
 }
 \description{
-summaryGOF computes fourteen Goodness--of--Fit indeces in addiction to the output of \pkg{sem} (Fox, Byrnes, Culbertson, Friendly, Kramer & Monette; 2011).}
+summaryGOF computes fourteen Goodness--of--Fit indexes in addiction to the output of \pkg{sem} (Fox, Byrnes, Culbertson, Friendly, Kramer & Monette; 2011).}
 \usage{
 summaryGOF(object, digits = 5, ...)
 }
@@ -24,7 +24,7 @@ additional arguments affecting the summary produced (see \code{\link{summary}}).
 }
 
 \details{
-The goodness of fit indeces calculated in \pkg{semGOF}:
+The goodness of fit indexes calculated in \pkg{semGOF}:
 \describe{
 \item{ICOMP}{Information Complexity (Bozdogan, 1990)}
 \item{Fml}{Fit Function of maximum likelihood (Long, 1986).}   
@@ -45,7 +45,7 @@ The goodness of fit indeces calculated in \pkg{semGOF}:
 
 \references{
 Bentler, P. M. (1990)
-Comparative fit indeces in structural equation models.
+Comparative fit indexes in structural equation models.
 \emph{Psychological Bulletin}
 \bold{107}:238--246.
 
@@ -85,7 +85,7 @@ Structural equation modeling with the sem package in R.
 \bold{13}:465--486.
 
 Hoelter, J. W.(1983)
-The analysis of covariance structure: goodness of fit indeces.
+The analysis of covariance structure: goodness of fit indexes.
 \emph{Sociological Methods and Research}
 \bold{11}:325--344.
 
@@ -210,7 +210,7 @@ sem.I <- sem(ram.I, S, 250, param.names=params.I,
 summaryGOF(sem.I)
 
 
-# Goodness-of-Fit indeces of structural equation models for 'sem' package
+# Goodness-of-Fit indexes of structural equation models for 'sem' package
 
 # ICOMP =  -14.964
 # Fml =  0.19582
